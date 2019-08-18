@@ -21,7 +21,7 @@ node('maven-label') {
    }
    stage('Preparation') { 
       
-      git 'https://github.com/cardrandd/bcard-app.git'
+      git 'https://github.com/20manasa94/bcard-app.git'
           
       mvnHome = tool 'maven'
    }
